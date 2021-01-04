@@ -1,0 +1,21 @@
+name: ClearInv
+main: Clear\Main
+author: GeorgeDev
+version: 1.0.0
+api: 3.0.0
+
+commands:
+  clear:
+    description: Clear your Inventory
+    permission: clear.other.cmd.cmd
+    usage: "/clear"
+
+permissions:
+  clear.cmd:
+    default: op
+    description: Allows you to clear your Inventory
+
+  clear.other.cmd:
+    default: op
+    description: Allows to clear other players
+
